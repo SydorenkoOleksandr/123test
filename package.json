@@ -1,0 +1,22 @@
+{
+  "name": "automationTestTask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.4.6"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.4.6",
+    "@wdio/mocha-framework": "^7.4.6",
+    "@wdio/spec-reporter": "^7.4.3",
+    "chromedriver": "^90.0.0",
+    "wdio-chromedriver-service": "^7.0.0"
+  }
+}
